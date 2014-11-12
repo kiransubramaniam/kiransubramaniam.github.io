@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#top-float-menu
+{
+	position:absolute;
+	top:2%;
+	right:30px;	
+}
