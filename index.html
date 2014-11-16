@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width-device-width, initial-scale=1">
-<title>felx - India's no.1 online grocery marketplace</title>
+<title>Bagitt! - India's no.1 localised online marketplace</title>
  <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="grocery-main-layout.css">
@@ -11,28 +11,54 @@
 <script src="jquery.min.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
-	
-	$(".loader").fadeOut("slow").delay(5000);
-	
-    testAnim('fadeInDown','#top-bar-float');
-  testAnim('fadeInUp','#all-the-rest-of-the-page');
-
+	setTimeout(
+  function() 
+  {
+    $("#loader").fadeOut("slow");
+    
+    
+    
+  }, 400);
+  setTimeout(
+  function() 
+  {
+    
+    
+    testAnim('zoomIn','#page-container');
+    
+  }, 550);
 	
 })
+
+  
 </script>
 
 </head>
-<div class="loader"><br></div>
-<div class=" placeholder-page">
+<body>
+<div id="loader">
+	
+	</div>
+<div id="page-container">
 <!-- --------------------------------------PAGE MAIN CONTAINER------------------------------------------------------------ -->
-<div id="top-bar-float" class="flipInX">
-	<div id="glow-bar"><br></div>
-<div id="logo-container" class="canvas"> <img src="Logo.png" id="logotop"/></div><h6 id="logo-text">the best online grocery marketplace</h6>
-<div id="search-bar-main-float"><input type="text" value="search for a product or item" class="my-textbox" /></div>
-<div id="top-left-float-menu"><h6>Become a Seller | Track My Order | Signup | Login</h6> </div>
-<div id="trolley"><img src="MyTrolley.png"/></div>
+<div id="the-top-bar-float">
+	<div id="top-bar">
+		<div id="glowbar"><br></div>
+		<h1 id="logo">Bagitt!</h1>
+		<h6 id="logo-text">the best online marketplace</h6>
+		<div class="input-group" id="searchboX">
+    <input type="text" class="form-control" value = "search for a product or item"/>
+    <span class="input-group-addon">
+        <i class="fa fa-search"></i>
+    </span>
 </div>
-<div id="navigation-bar-container" class="container">
+<div id="top-right-float-menu"><h6>Become a Seller | Track My Order | Signup | Login</h6> </div>
+<img src="MyTrolley.png" id="trolley"/>
+	</div>
+	
+
+
+</div>
+<div id="navigation-bar-container">
 	<nav>
 		<ul id="top-navigator">
 			<li ><a href="javascript:testAnim('fadeInDown','#top-bar-float')">ALL CATEGORIES</a></li>
@@ -47,12 +73,10 @@ $(window).load(function() {
 		</ul>
 	</nav>
 </div>
-<div id = "all-the-rest-of-the-page">
 <div id="page-center-mainscroll" class="container">
 	<img src="20141022-121755-led.jpg"  />
 	<h1 id = "offertext">OFFERS &amp; PROMOTIONS WILL BE PUT UP HERE</h1>
 </div>
-<div id="rest-of-the-page-container" class="container">
 <div id="main-page-offers" class="container">
 	<div class="main-page-offer-1">
 		<div class = "main-page-offer-1-heading">OFFER / PROMOTION 1</div>
@@ -71,7 +95,6 @@ $(window).load(function() {
 		<p class="offer-details">Buy 2 Get 1 Offer</p>
 	</div>
 </div>
-</div>
 <div id = "main-page-sections">
 	<div class = "section-design">
 			<h2 class="section-header">GROCERIES &amp; STAPLES</h2>
@@ -83,16 +106,8 @@ $(window).load(function() {
 			<h2 class="section-header">ELECTRONICS</h2>
 	</div>
 </div>
-
-
-<br><br><br><br><br><br>
-
-
-<!-- --------------------------------------PAGE MAIN CONTAINER------------------------------------------------------------ -->
-</div>
-</div>
 <!-- -------------------------------------------------------------------------------------------------------- -->
-
+</div>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
