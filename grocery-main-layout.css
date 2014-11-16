@@ -17,7 +17,15 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	background: #FFF;
+	background: rgba(255,255,255,0.63);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.63) 0%, rgba(166,181,191,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,0.63)), color-stop(100%, rgba(166,181,191,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.63) 0%, rgba(166,181,191,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.63) 0%, rgba(166,181,191,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.63) 0%, rgba(166,181,191,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,255,255,0.63) 0%, rgba(166,181,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a6b5bf', GradientType=1 );
+background-attachment:fixed;
 }
 body{
 	background:none;
