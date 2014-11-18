@@ -7,6 +7,27 @@
 | |\`\ | || |\ \ | | | || |`\ |   ( )_) || (_) || (_) )| |\ \ | | | || | | || | | || |`\ || || | | || | | |
 (_) (_)(_)(_) (_)(_) (_)(_) (_)   `\____)(_____)(____/'(_) (_)(_) (_)(_) (_)(_) (_)(_) (_)(_)(_) (_)(_) (_)
  */
+#fonts-llist
+{
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Fontdiner Swanky', cursive;
+	font-family: 'Tangerine', cursive;
+	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Audiowide', cursive;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Righteous', cursive;
+	font-family: 'Orbitron', sans-serif;
+	font-family: 'Pinyon Script', cursive;
+	font-family: 'Black Ops One', cursive;
+	font-family: 'Chivo', sans-serif;
+	font-family: 'Jura', sans-serif;
+	font-family: 'Slackey', cursive;
+	font-family: 'Gruppo', cursive;
+}
  html
 {
 	max-width: 100%;
@@ -32,13 +53,17 @@ body{
 	max-width: 100%;
     overflow-x: hidden;
 }
-
+.drop
+{
+	box-shadow:0 2px 26px rgba(0,0,0,0.3);
+}
 #page-container
 {
 	margin-left: auto;
     margin-right: auto;
     width: 1000px;
-    
+    	font-family: 'Comfortaa', cursive;
+
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
 }
@@ -68,6 +93,13 @@ body{
 {
 	position:relative;
 	top:-12px;
+	/*font-family: 'Audiowide', cursive;
+	 * font-family: 'Righteous', cursive;
+*/font-family: 'Hammersmith One', sans-serif;
+
+
+
+
 }
 #logo-text
 {
@@ -118,7 +150,7 @@ box-shadow:0 2px 6px rgba(0,0,0,0.2);
 #navigation-bar-container
 {
 	position:relative;
-	top:70px;
+	top:80px;
 	width:auto;
 	z-index: 998;
 	}
@@ -128,7 +160,7 @@ box-shadow:0 2px 6px rgba(0,0,0,0.2);
 	margin:10px;
 	
 	padding:10px;
-	width:auto;
+	
 }
 #top-navigator li
 {
@@ -136,8 +168,8 @@ box-shadow:0 2px 6px rgba(0,0,0,0.2);
 	top:15px;
 	color:#000;
 	font-size:smaller;
-	height:65px;
-	display:inline;
+	height:45px;
+	width:175px;
 	padding:8px;
 	padding-left:-10px;
 	 
@@ -165,9 +197,9 @@ box-shadow:0 2px 6px rgba(0,0,0,0.2);
 #page-center-mainscroll
 {
 	position:relative;
-	top:75px;
-	left:0px;
-	width:100%;
+	top:-280px;
+	margin-left:200px;
+	width:79%;
 	height:400px;
 	 background-color:rgba(132, 132, 132, 0.5);
 	 border: 1px solid rgba(0,0,0,0.5);
