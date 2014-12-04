@@ -53,53 +53,36 @@ function logoanim()
 function contentanim()
 {
 	 //--------animation starts here - content-holder---------
-   		$('#content-holder').animate( {top: '50%'},200 ).delay(100).animate( {top: '15%'},50 ).animate( {top: '25%'},100 ).animate( {top: '10%'},50 );
+   		$('#content-holder').animate( {top: '50%'},400 ).delay(100).animate( {top: '15%'},50 ).animate( {top: '25%'},100 ).animate( {top: '10%'},50 );
 	//--------animation ends here - content-holder---------
 }
 function animme()
 {
 //--------animation starts here - my-image---------
- 		$('#FXLogo').animate( {top: '70%'},200 ).delay(100).animate( {top: '55%'},50 ).animate( {top: '60%'},100 ).animate( {top: '45%'},50 );
+ 		$('#FXLogo').animate( {top: '70%'},400 ).delay(100).animate( {top: '15%'},50 ).animate( {top: '60%'},100 ).animate( {top: '45%'},50 );
 	//--------animation ends here - my-image---------
 }
 function animatemenu()
 {
-	$('#menu').slideDown('fast');
 	$('#menu').animate( {right: '10%'},400 )
-	
 }
 function animatecont()
 {
 	$('#content-body').slideDown('slow');
 	$('#content-head').slideDown('slow');
-	
+	$('#menu').slideDown('slow');
 }
 function myAnim()
 {
 	init();
-	animatebgDoors();
-	//animatebgDoorsafter();
-	 setTimeout(logoanim, 1300);
-	//logoanim();//<----Logo comes first
-	setTimeout(contentanim,1900);//<-----Content window second
-	setTimeout(animme,2300);//<-----Photo comes third
-	  //setTimeout(animatecont,3700);//<----Content(text) comes last
-	 setTimeout(animatemenu,2600);
-}
-function animatebgDoors()
-{
-	$('#bg-right').animate( {right: '-100%'},900 ).delay(100).animate( {right: '-5%'},300 ).animate( {right: '0%'},100  );
-	$('#bg-left').animate( {left: '-100%'},500 ).delay(100).animate( {left: '-5%'},100 ).animate( {left: '0%'},100  );
-	
-}
-function animatebgDoorsafter()
-{
-	$('#bg-right').animate( {right: '-2%'},50 ).delay(100).animate( {right: '2%'},100 ).animate( {right: '0%'},100  );
-	$('#bg-left').animate( {left: '-2%'},50 ).delay(100).animate( {left: '2%'},100 ).animate( {left: '0%'},100  );
+	logoanim();//<----Logo comes first
+	setTimeout(contentanim,600);//<-----Content window second
+	setTimeout(animme,1600);//<-----Photo comes third
+	setTimeout(animatecont,2200);//<----Content(text) comes last
+	setTimeout(animatemenu,2800);
 }
 function animnewcontent()
 {
-	
 	//--------animation starts here - content-holder---------
    		$('#content-holder').animate( {right: '100%'},500 ).delay(100).animate( {right: '-5%'},100 ).animate( {right: '5%'},100  );
 	//--------animation ends here - content-holder---------
