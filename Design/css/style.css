@@ -9,7 +9,7 @@ html
 body 
 {
 background-attachment:fixed;
-background-color:#66CC99;
+background-color:#1BBC9B;
 -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,18 +70,19 @@ body a
 	top:-50%;
 	font-family: 'Comfortaa', cursive;
 	font-size:larger;
-	text-shadow:0px 1px 0px #000;
+	
+	
 }
 #content-holder
 {
 	position:absolute;
-	width:80%;
-	height:auto;
+	
+	
 	left:25%;
 	top:-83%;
 	font-family: 'Comfortaa', cursive;
 	font-size:48px;
-	text-shadow:0px 1px 0px #000;
+	
 }
 #FXLogo
 {
@@ -90,6 +91,7 @@ body a
 	height:auto;
 	left:10%;
 	top:-83%;
+	
 }
 #content-head
 {
@@ -169,7 +171,7 @@ color:#FFF;
 	
 	#menu ul li a:hover
 	{
-		background:#66CC99;
+		background:#4ECDC4;
 		text-decoration:underline;
 		
 	}
