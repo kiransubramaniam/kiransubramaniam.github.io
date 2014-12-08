@@ -2,15 +2,11 @@
 /* CSS Document */
 body 
 {
-background-attachment:fixed;
-background-image:url('../images/bg.png');
--webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-color:#D8D8D8;
-width:100%;
+color:#2E2E2E;
+background-color:#D8D8D8;
+font-family: 'Comfortaa', cursive;
 height:100%;
+width:100%;
 overflow:hidden;
 }
 body a
@@ -18,140 +14,59 @@ body a
 	text-decoration:underline;
 	color:#000;
 }
-#theemechooser
-	{
-		position:absolute;
-		top:0%;
-		left:95%;
-		width:70px;
-	}
-	#themechooser ul li{
-		display:inline;}
-#logo
+body a:hover
 {
-	position:absolute;
-	width:auto;
-	height:30%;
-	left:45%;
-	top:-50%;
-	font-family: 'Comfortaa', cursive;
-	font-size:larger;
-	text-shadow:0px 1px 0px #000;
+	color:#1BBC9B;
 }
-#content-holder
+#container
 {
-	position:absolute;
-	width:80%;
-	height:auto;
-	left:25%;
-	top:-83%;
-	font-family: 'Comfortaa', cursive;
-	font-size:48px;
-	text-shadow:0px 1px 0px #000;
+	position:relative;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#E6E6E6;
+	
+	border:3px solid #1BBC9B;
+	border-radius: 15px;
 }
-#FXLogo
+
+#FXLogoimg
 {
-	position:absolute;
-	width:80%;
-	height:auto;
-	left:10%;
-	top:-83%;
+	width:300px;
+	position:relative;
+	left:355px;
 }
-#content-head
+#descText
 {
-	font-family:Tahoma, Geneva, sans-serif;
-	color:#333;
-	font-size:44px;
-	position:absolute;
-	left:30%;
-	top:38%;
+	position:relative;
+	top:-40px;
+	margin-left:20px;
 	text-align:center;
-	width:55%;
-	font-weight:bold;
-	text-shadow:0px 1px 5px #555;
 }
-#content-body
+#bannertext
 {
-	font-family:Tahoma, Geneva, sans-serif;
-	color:#333;
-	font-weight:normal;
-	position:absolute;
-	width:65%;
-	height:65%;
-	right:6%;
-	top:50%;
-	text-shadow:0px 1px 5px #555;
+	
+	font-size:72px;
 }
-#content-body a:hover
+#paraFormat
 {
-	text-decoration:none;
-	
-	text-shadow: 0 0px 2px #000;
+	position:relative;
+	top:-30px;
+	font-size: larger;
+	text-align:center;
+	width:750px;
+	left:100px;
+	/*color:#1BBC9B;*/
 }
-
-#menu { position:absolute; top:90%; right:-100%;width:auto;-moz-border-radius:8px;
-    -webkit-border-radius:8px;
-    border-radius:8px; }
-#menu ul { list-style:none }
-#menu ul li {  display:inline;font-family:Tahoma, Geneva, sans-serif; font-size:24px; text-align:center; padding-left:15px;}
-#menu ul li a { color:#FFF; text-decoration:none; font-weight:bold; padding-right:20px; text-align:center;
-	font-weight:bold;
-	padding-left:15px; }
-
-	 #l1 a { 
-color:#FFF;
-	font-family: 'Lobster', cursive;
-	
-     text-align:center; padding-left:1px;
-	
-
-	 }
-	 #l2 a { 
-color:#FFF;
-	font-family: 'Lobster', cursive;
-     text-align:center; padding-left:15px;
-	
-	 }
-	 #l3 a
-	{
-		
-color:#FFF;
-	/*font-family: 'Lobster', cursive;
-	 	font-family: 'Audiowide', cursive;
-*/
-	 	font-family: 'Lobster', cursive;
-	
-	}
-	#l4 a
-	{
-		
-color:#FFF;
-	/*font-family: 'Lobster', cursive;
-	 	font-family: 'Audiowide', cursive;
-*/
-	 	font-family: 'Lobster', cursive;
-	
-	}
-	
-	#menu ul li a:hover
-	{
-		background:#333;
-		text-decoration:underline;
-		
-	}
-	
-	#whit
-	{
-		background-color:#FFF;
-		width:25px;
-		border-style:solid;
-		border-color:#000;
-		color:#FFF;
-	}
-	#blac
-	{
-		background-color:#000;
-		width:25px;
-		border-style:solid;
-		border-color:#FFF;
-	}
+.greenText
+{
+	color:#1BBC9B;
+}
+#footerText
+{
+	position:relative;
+	top:5px;
+	left:860px;
+	font-size:12px;
+	text-align: right;
+}

@@ -2,27 +2,56 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>FeniXLabs Inc., the technology company!</title>
+<title>ourlocalstore - The best online grocery marketplace, groceries, food, consumables, local stores, supermarkets, and everything!</title>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <link href='http://fonts.googleapis.com/css?family=Dosis|Fredericka+the+Great|Josefin+Sans|Lobster|Anton|Fontdiner+Swanky|Tangerine|Hammersmith+One|Audiowide|Comfortaa|Righteous|Orbitron|Pinyon+Script|Black+Ops+One|Chivo|Jura|Slackey|Gruppo' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="scripts/contentchanger.js"></script>
+<link rel="stylesheet" href="http://daneden.github.io/animate.css/animate.min.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript">/*
+$(document).ready(function(){
+  testAnim('bounceInDown','#FXLogoimg');
+  AnimationStart();
+});
+function AnimationStart(){
+  setTimeout(
+  function() 
+  { 
+  	$("#bannertext").text("Hey!!");
+  	testAnim('zoomIn','#bannertext');
+  	
+  }, 1500);
+  
+  setTimeout(
+  function() 
+  { 
+  	
+  	testAnim('zoomIn','#paraFormat');
+  	
+  }, 1500);
+  
+}
+  */
+</script>
 </head>
 
-<body background="images/back.jpg" onload="javascript:myAnim();">
-<div id="logo"><h1>Hey there!</h1></div>
-<div id="content-holder"><h2>welcome to</h2></div>
-
-
-<div id="menu">
-				<ul>
-					<li id="l1"><a href="#">our company</a></li>
-					<li id="l2"><a href="#">what we do?</a></li>
-					<li id="l3"><a href="#">who are we?</a></li>
-					<li id="l4"><a href="#">contact us!</a></li>
-				</ul>
-			</div>
-
-<img id="FXLogo" src="images/FXT.png" />
+<body>
+	
+<div id="container">
+	<img id="FXLogoimg" src="images/OurLocalStore.png" />
+	<div id="descText">
+		<h1 id="bannertext">Hey! </h1>
+		<p id="paraFormat">It's really glad that you've found us! We are working our <span class="greenText">wits off</span> in getting this insanely great product for you. <h2><span class="greenText">Bookmark Us </span> and watch this space while we get back to you in a whisk ;)</h2></p>
+		
+	
+</div>
+</div>
+<span id="footerText">site developed by <a href="http://www.fenixlabs.in" target="_blank">FeniXLabs Inc.</a></span>
 </body>
+<script type="text/javascript">
+    function testAnim(x,y) {
+    $(y).removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass();
+    });
+  };
+</script>
 </html>
