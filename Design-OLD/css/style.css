@@ -22,6 +22,7 @@ body a:hover
 {
 	position:relative;
 	width:1000px;
+	height:550px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#E6E6E6;
@@ -39,14 +40,24 @@ body a:hover
 #descText
 {
 	position:relative;
-	top:-40px;
+	top:-70px;
 	margin-left:20px;
 	text-align:center;
 }
 #bannertext
 {
 	
-	font-size:72px;
+	font-size:64px;
+}
+#nextText
+{
+	position:relative;
+	top:-30px;
+}
+#thirdText
+{
+	position:relative;
+	top:-30px;
 }
 #paraFormat
 {
